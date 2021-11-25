@@ -32,7 +32,7 @@ Arguments: <br />
 			Choose either 'low', 'med' (Default) or 'hig'. <br />
 	-t diversity: Set temperature for sampling. Optimal range 0.7-1.3. Default 1.0 <br />
 
-Example: [python3 gen_leadsheet.py -ts '4/4' -b 12 -v 2 -d 'hig'] will generate a 12 bar lead sheet on 4/4 Time Signature, with High Valence regarding the Chord Progression and high density of events within the bars.
+Example: [python3 gen_leadsheet.py -ts 4/4 -b 12 -v 2 -d hig] will generate a 12 bar lead sheet on 4/4 Time Signature, with High Valence regarding the Chord Progression and high density of events within the bars.
 
 Please note that warning messages can occur if the network (due to "extreme" for the training dataset settings) cannot provide the exact number of bars or some other mismatches from the user's parameters.
 
