@@ -355,7 +355,7 @@ def chords_mel_mid(f_chords,f_durs,f_bars,allMelody,timesig,gen_out):
             gen_out = './'
     
     #create the m21 instance for MIDI
-    rc = m21.stream.Stream()
+    rc = m21.stream.Score()
     #set tonality and tempo (default 120 tempo or set it to tempo21)
     kf = m21.key.Key('C', 'major')
     tempo21 = m21.tempo.MetronomeMark(number=100)
